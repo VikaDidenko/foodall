@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+
+
+
+    tools:context="com.example.lenovo.food.MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="PANDA FOOD"
+    android:id="@+id/txtSlogan"
+    android:textSize="60dp"
+
+    android:textColor="@color/colorText"
+    />
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            >
+
+        <Button
+
+            android:id="@+id/btnAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom|left"
+            android:background="@color/green"
+            android:shadowColor="@color/green"
+            android:layout_margin="8dp"
+            android:text="Адмін"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+
+
+            <Button
+
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_weight="2"
+                android:background="@color/btnSignUp"
+                android:shadowColor="@color/btnSignUp"
+                android:text="Зареєструватися"
+                android:textSize="15dp"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/white"
+
+                />
+
+            <Button
+
+            android:id="@+id/btnSignIn"
+            android:text="Вхід"
+            android:textColor="@android:color/white"
+            android:layout_gravity="bottom|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+                android:textSize="15dp"
+                android:layout_margin="8dp"
+            android:background="@color/btnSignActive"
+            android:shadowColor="@color/btnSignActive"
+/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

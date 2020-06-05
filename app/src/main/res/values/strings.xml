@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Food</string>
+    <string name="slogan">Незалежно від того, де ви знаходитесь: чи вдома чи в офісі, або на лавці - ми знайдемо вас, ми будемо годувати вас</string>
+    <string name="title_activity_home">Головна</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Налаштування</string>
+</resources>

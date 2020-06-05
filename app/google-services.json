@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "555598010521",
+    "firebase_url": "https://food-ef834.firebaseio.com",
+    "project_id": "food-ef834",
+    "storage_bucket": "food-ef834.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555598010521:android:3d5f89f584f9001e",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555598010521-ho261fjeu5dl4dmac87rrhkmmhdc4jsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.food",
+            "certificate_hash": "ea0a98a6b5f4760a037e3357b707cdf1b566a1f6"
+          }
+        },
+        {
+          "client_id": "555598010521-gup1a1pukpf6ohg4c75tin0ddp52fpr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyCtgtdWV1ggGOmUXOLJJ7A83dzEIzRgs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555598010521-gup1a1pukpf6ohg4c75tin0ddp52fpr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
